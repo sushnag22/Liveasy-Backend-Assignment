@@ -1,4 +1,4 @@
-package tech.sushnag22.liveasyloadsapi.models;
+package tech.sushnag22.liveasyloadsapi.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
