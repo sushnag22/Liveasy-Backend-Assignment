@@ -17,14 +17,14 @@ public class Load {
     private int noOfTrucks;
     private int weight;
     private String comment;
-    private String shipperId;
+    private int shipperId;
     private LocalDate date;
 
     public Load() {
     }
 
     public Load(int id, String loadingPoint, String unloadingPoint, String productType,
-                String truckType, int noOfTrucks, int weight, String comment, String shipperId, LocalDate date) {
+                String truckType, int noOfTrucks, int weight, String comment, int shipperId, LocalDate date) {
         this.id = id;
         this.loadingPoint = loadingPoint;
         this.unloadingPoint = unloadingPoint;
@@ -101,11 +101,11 @@ public class Load {
         this.comment = comment;
     }
 
-    public String getShipperId() {
+    public int getShipperId() {
         return shipperId;
     }
 
-    public void setShipperId(String shipperId) {
+    public void setShipperId(int shipperId) {
         this.shipperId = shipperId;
     }
 
